@@ -115,5 +115,3 @@ CT08 - Validar Exclusao do Usuario
     Validar Status HTTP    ${resposta}    400
     Should Be Equal    ${resposta.json()}[message]
     ...    Usuário não encontrado
-
-
