@@ -30,3 +30,4 @@ Validar Status HTTP
     Should Be Equal As Integers
     ...    ${resposta.status_code}
     ...    ${status_esperado}
+    
